@@ -1,6 +1,9 @@
+/**
+ * NOTE: This file will become obsolete soon, as I am working on splitting all of this junk into smaller files
+ */
+
 const { Guild, Role, User, Message } = require("discord.js");
-const { MongoClient } = require("mongodb");
-const uri = "mongodb://127.0.0.1:27017";
+
 
 const settings = require('../settings.json');
 
